@@ -175,5 +175,3 @@ for row_start in range(0, len(subset), 5):
 # Footer
 if pages>1:
     st.caption(f"Showing {start+1}-{min(start+per_page,total)} of {total}")
-if pages>1:
-    st.caption(f"Showing {start+1}-{min(start+per_page,total)} of {total}")
